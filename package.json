@@ -4,7 +4,7 @@
   "description": "TS learnings, and metaprogramming experiments",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config .jestconfig.json",
+    "test": "jest",
     "lint": "eslint 'src/*/**/*.{js,ts,tsx}' --quiet",
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier \"./src/**/*.+(js|jsx|ts|tsx|md)\" --write",
